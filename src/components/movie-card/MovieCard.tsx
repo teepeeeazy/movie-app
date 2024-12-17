@@ -19,7 +19,7 @@ const MovieCard: React.FC<{ movie: Movie }> = ({ movie }) => {
       </div>
       <div className="movie-info">
         <h3>{movie.title}</h3>
-        <p>{movie.release_date.getUTCDate()}</p>
+        <p>{movie.release_date.getFullYear()}</p>
       </div>
     </div>
   );
